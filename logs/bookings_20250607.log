@@ -1,0 +1,214 @@
+Found 1 bookings for Jyo@gmail.com
+2025-06-07 11:38:53 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:fetch_bookings_by_email():153] - Found 1 bookings for Jyo@gmail.com
+Invalid timezone 'IST' provided. Defaulting to IST.
+2025-06-07 12:28:33 - WARNING - bookings - [AnyIO worker thread:booking_data_handler.py:fetch_classes_data():30] - Invalid timezone 'IST' provided. Defaulting to IST.
+3 upcoming class(es) fetched successfully.
+2025-06-07 12:28:33 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:fetch_classes_data():44] - 3 upcoming class(es) fetched successfully.
+Booking confirmed: 2 for john.doe@example.com at 2025-06-10 09:00:00
+2025-06-07 12:28:33 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():108] - Booking confirmed: 2 for john.doe@example.com at 2025-06-10 09:00:00
+Booking confirmed: 3 for user@example.com at 2025-06-10 09:00:00
+2025-06-07 12:28:33 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():108] - Booking confirmed: 3 for user@example.com at 2025-06-10 09:00:00
+User user@example.com already booked a class at 2025-06-10 09:00:00.
+2025-06-07 12:28:33 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user@example.com already booked a class at 2025-06-10 09:00:00.
+Booking failed for user@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:28:33 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:28:33 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking confirmed: 4 for jane@example.com at 2025-06-10 09:00:00
+2025-06-07 12:28:34 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():108] - Booking confirmed: 4 for jane@example.com at 2025-06-10 09:00:00
+No slots left for class ID 1.
+2025-06-07 12:28:34 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():77] - No slots left for class ID 1.
+Booking failed for jane@example.com: No available slots.
+2025-06-07 12:28:34 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for jane@example.com: No available slots.
+Booking issue due to: No available slots.
+2025-06-07 12:28:34 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: No available slots.
+Found 1 bookings for john.doe@example.com
+2025-06-07 12:28:34 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:fetch_bookings_by_email():153] - Found 1 bookings for john.doe@example.com
+Booking confirmed: 5 for user0@example.com at 2025-06-12 07:00:00
+2025-06-07 12:28:34 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():108] - Booking confirmed: 5 for user0@example.com at 2025-06-12 07:00:00
+Booking confirmed: 7 for user5@example.com at 2025-06-12 07:00:00
+2025-06-07 12:28:34 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():108] - Booking confirmed: 7 for user5@example.com at 2025-06-12 07:00:00
+Booking confirmed: 6 for user7@example.com at 2025-06-12 07:00:00
+2025-06-07 12:28:34 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():108] - Booking confirmed: 6 for user7@example.com at 2025-06-12 07:00:00
+Booking confirmed: 8 for user4@example.com at 2025-06-12 07:00:00
+2025-06-07 12:28:34 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():108] - Booking confirmed: 8 for user4@example.com at 2025-06-12 07:00:00
+Booking confirmed: 9 for user2@example.com at 2025-06-12 07:00:00
+2025-06-07 12:28:34 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():108] - Booking confirmed: 9 for user2@example.com at 2025-06-12 07:00:00
+Booking confirmed: 10 for user8@example.com at 2025-06-12 07:00:00
+2025-06-07 12:28:34 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():108] - Booking confirmed: 10 for user8@example.com at 2025-06-12 07:00:00
+Booking confirmed: 11 for user6@example.com at 2025-06-12 07:00:00
+2025-06-07 12:28:34 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():108] - Booking confirmed: 11 for user6@example.com at 2025-06-12 07:00:00
+Booking confirmed: 12 for user1@example.com at 2025-06-12 07:00:00
+2025-06-07 12:28:34 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():108] - Booking confirmed: 12 for user1@example.com at 2025-06-12 07:00:00
+Booking confirmed: 13 for user3@example.com at 2025-06-12 07:00:00
+2025-06-07 12:28:34 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():108] - Booking confirmed: 13 for user3@example.com at 2025-06-12 07:00:00
+Booking confirmed: 14 for user9@example.com at 2025-06-12 07:00:00
+2025-06-07 12:28:34 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():108] - Booking confirmed: 14 for user9@example.com at 2025-06-12 07:00:00
+Invalid timezone 'IST' provided. Defaulting to IST.
+2025-06-07 12:33:11 - WARNING - bookings - [AnyIO worker thread:booking_data_handler.py:fetch_classes_data():30] - Invalid timezone 'IST' provided. Defaulting to IST.
+3 upcoming class(es) fetched successfully.
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:fetch_classes_data():44] - 3 upcoming class(es) fetched successfully.
+No slots left for class ID 1.
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():77] - No slots left for class ID 1.
+Booking failed for alice@example.com: No available slots.
+2025-06-07 12:33:11 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for alice@example.com: No available slots.
+Booking issue due to: No available slots.
+2025-06-07 12:33:11 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: No available slots.
+No slots left for class ID 1.
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():77] - No slots left for class ID 1.
+Booking failed for alice@example.com: No available slots.
+2025-06-07 12:33:11 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for alice@example.com: No available slots.
+Booking issue due to: No available slots.
+2025-06-07 12:33:11 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: No available slots.
+Booking confirmed: 15 for user0@example.com at 2025-06-10 09:00:00
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():108] - Booking confirmed: 15 for user0@example.com at 2025-06-10 09:00:00
+Booking confirmed: 16 for user1@example.com at 2025-06-10 09:00:00
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():108] - Booking confirmed: 16 for user1@example.com at 2025-06-10 09:00:00
+No slots left for class ID 2.
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():77] - No slots left for class ID 2.
+Booking failed for user2@example.com: No available slots.
+2025-06-07 12:33:11 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user2@example.com: No available slots.
+Booking issue due to: No available slots.
+2025-06-07 12:33:11 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: No available slots.
+User user0@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user0@example.com already booked a class at 2025-06-12 07:00:00.
+Booking failed for user0@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user0@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+User user1@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user1@example.com already booked a class at 2025-06-12 07:00:00.
+Booking failed for user1@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user1@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+User user2@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user2@example.com already booked a class at 2025-06-12 07:00:00.
+User user3@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user3@example.com already booked a class at 2025-06-12 07:00:00.
+User user6@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user6@example.com already booked a class at 2025-06-12 07:00:00.
+User user7@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user7@example.com already booked a class at 2025-06-12 07:00:00.
+Booking failed for user2@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user2@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+User user4@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user4@example.com already booked a class at 2025-06-12 07:00:00.
+Booking failed for user3@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user3@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking failed for user6@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user6@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking failed for user7@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user7@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+User user5@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user5@example.com already booked a class at 2025-06-12 07:00:00.
+User user8@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user8@example.com already booked a class at 2025-06-12 07:00:00.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+User user9@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:33:11 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user9@example.com already booked a class at 2025-06-12 07:00:00.
+Booking failed for user4@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user4@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking failed for user5@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user5@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking failed for user8@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user8@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking failed for user9@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user9@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:33:11 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Invalid timezone 'IST' provided. Defaulting to IST.
+2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_handler.py:fetch_classes_data():30] - Invalid timezone 'IST' provided. Defaulting to IST.
+3 upcoming class(es) fetched successfully.
+2025-06-07 12:41:03 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:fetch_classes_data():44] - 3 upcoming class(es) fetched successfully.
+No slots left for class ID 1.
+2025-06-07 12:41:03 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():77] - No slots left for class ID 1.
+Booking failed for alice_unique@example.com: No available slots.
+2025-06-07 12:41:03 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for alice_unique@example.com: No available slots.
+Booking issue due to: No available slots.
+2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: No available slots.
+No slots left for class ID 1.
+2025-06-07 12:41:03 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():77] - No slots left for class ID 1.
+Booking failed for alice_duplicate@example.com: No available slots.
+2025-06-07 12:41:03 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for alice_duplicate@example.com: No available slots.
+Booking issue due to: No available slots.
+2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: No available slots.
+No slots left for class ID 2.
+2025-06-07 12:41:03 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():77] - No slots left for class ID 2.
+Booking failed for user0@example.com: No available slots.
+2025-06-07 12:41:03 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user0@example.com: No available slots.
+Booking issue due to: No available slots.
+2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: No available slots.
+User user0@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:41:03 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user0@example.com already booked a class at 2025-06-12 07:00:00.
+Booking failed for user0@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user0@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+User user1@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:41:03 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user1@example.com already booked a class at 2025-06-12 07:00:00.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+User user2@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:41:03 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user2@example.com already booked a class at 2025-06-12 07:00:00.
+User user5@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:41:03 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user5@example.com already booked a class at 2025-06-12 07:00:00.
+User user4@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:41:03 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user4@example.com already booked a class at 2025-06-12 07:00:00.
+Booking failed for user1@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user1@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+User user3@example.com already booked a class at 2025-06-12 07:00:00.
+Booking failed for user2@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user3@example.com already booked a class at 2025-06-12 07:00:00.
+Booking failed for user5@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+User user6@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:41:03 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user2@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user5@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking failed for user4@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user6@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:41:03 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user4@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+User user9@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:41:03 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user9@example.com already booked a class at 2025-06-12 07:00:00.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+User user7@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:41:03 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user7@example.com already booked a class at 2025-06-12 07:00:00.
+User user8@example.com already booked a class at 2025-06-12 07:00:00.
+2025-06-07 12:41:03 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():91] - User user8@example.com already booked a class at 2025-06-12 07:00:00.
+Booking failed for user3@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user3@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking failed for user6@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user6@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking failed for user9@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user9@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking failed for user7@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user7@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking failed for user8@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - ERROR  - bookings - [AnyIO worker thread:booking_data_handler.py:process_booking():120] - Booking failed for user8@example.com: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
