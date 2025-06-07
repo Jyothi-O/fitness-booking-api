@@ -24,11 +24,16 @@ class BookingDataHandler:
         """
         try:
             ist = ZoneInfo("Asia/Kolkata")
+        except Exception as e:
+            import pytz
+            ist = pytz.timezone("Asia/Kolkata")
+            log.warning(f"ZoneInfo not found or missing timezone data, falling back to pytz: {e}")
+
+        try:
             tz = ZoneInfo(timezone)
         except Exception:
-            tz = ist
+            tz = ist  # fallback to IST if invalid timezone provided
             log.warning(f"Invalid timezone '{timezone}' provided. Defaulting to IST.")
-
         try:
             now_ist = datetime.now(ZoneInfo("Asia/Kolkata"))
             classes = db.query(FitnessClass).filter(FitnessClass.date_time >= now_ist).all()

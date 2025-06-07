@@ -172,8 +172,8 @@ GET /classes
       "id": 1,
       "name": "Yoga",
       "instructor": "Rita",
-      "date_time": "2025-06-10 09:00",
-      "available_slots": 10
+      "date_time": "2025-06-18 06:00",
+      "available_slots": 5
     }
   ]
 }
@@ -231,7 +231,7 @@ GET /bookings?email=john@gmail.com
       "booking_id": 1,
       "class_id": 1,
       "class_name": "Yoga",
-      "slot_time": "2025-06-10 09:00",
+      "slot_time": "2025-06-18 06:00",
       "client_name": "John",
       "client_email": "john@gmail.com"
     }

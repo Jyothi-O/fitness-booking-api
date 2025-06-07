@@ -12,15 +12,15 @@ handler_obj = BookingDataHandler()
 
 @booking_router.get(Endpoints.classes, response_model=DefaultResponse)
 def get_classes_data(
-    timezone: str = Query("IST", description="Timezone to view class timings in."),
-    db: Session = Depends(get_db)
+        timezone: str = Query("IST", description="Timezone to view class timings in."),
+        db: Session = Depends(get_db)
 ):
     """
     Fetch all upcoming fitness classes in the provided timezone.
     """
     try:
         result = handler_obj.fetch_classes_data(db, timezone)
-        return DefaultResponse(data=result,message="Classes data fetched successfully")
+        return DefaultResponse(data=result, message="Classes data fetched successfully")
     except Exception as e:
         log.error(f"Error in get_classes_data: {e}")
         raise HTTPException(
@@ -31,20 +31,20 @@ def get_classes_data(
 
 @booking_router.post(Endpoints.book, response_model=DefaultResponse)
 def book_class(
-    request: BookingRequest,
-    db: Session = Depends(get_db)
+        request: BookingRequest,
+        db: Session = Depends(get_db)
 ):
     """
     Book a spot in a fitness class.
     """
     try:
         result = handler_obj.process_booking(db, request)
-        return DefaultResponse(data=result,message="Booking successful")
+        return DefaultResponse(data=result, message="Booking successful")
     except ValueError as ve:
         log.warning(f"Booking issue due to: {ve}")
         raise HTTPException(
             status_code=400,
-            detail={"message": "Booking failed", "error": str(ve)}
+            detail={"message": str(ve)}
         )
     except Exception as e:
         log.error(f"Booking failed: {e}")
@@ -56,8 +56,8 @@ def book_class(
 
 @booking_router.get(Endpoints.bookings, response_model=DefaultResponse)
 def get_bookings_by_email(
-    email: str = Query(..., description="Email used during booking."),
-    db: Session = Depends(get_db)
+        email: str = Query(..., description="Email used during booking."),
+        db: Session = Depends(get_db)
 ):
     """
     Retrieve all bookings associated with a specific email.
@@ -70,7 +70,7 @@ def get_bookings_by_email(
                 status_code=404,
                 detail={"message": f"No bookings found for email: {email}"}
             )
-        return DefaultResponse(data=result,message="Bookings data fetched successfully")
+        return DefaultResponse(data=result, message="Bookings data fetched successfully")
     except HTTPException:
         raise
     except Exception as e:
