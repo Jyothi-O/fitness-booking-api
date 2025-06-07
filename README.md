@@ -133,7 +133,8 @@ curl -X GET "http://localhost:8080/classes"
 │   │   └── db_models.py           # SQLAlchemy models: FitnessClass, Booking
 │   │
 │   ├── handler/
-│   │   └── booking_data_handler.py # Business logic handling API requests, validation
+│   │   ├── booking_data_handler.py # Business logic handling API requests, validation
+│   │   └── seed_data.py            # Seed data script to initialize sample fitness classes
 │   │
 │   ├── logging/
 │   │   └── log_module.py          # Centralized logging configuration and logger setup
@@ -144,7 +145,7 @@ curl -X GET "http://localhost:8080/classes"
 │   └── service/
 │       └── booking_service.py     # Service layer with reusable DB operations and helpers
 │
-├── main.py                        # Application startup, DB initialization, router inclusion
+├── main.py                        # Application startup, DB initialization, router inclusion, seed data loading
 ├── requirements.txt               # Python dependencies required to run the project
 └── README.md                      # Project documentation, instructions, and overview
 
