@@ -77,11 +77,9 @@ Example curl request to get classes:
 
 ```bash
 curl -X GET "http://localhost:8080/classes"
+```
 
----
-
-## 📂 Project Structure
-
+## Project Structure
 ```
 .
 ├── conf/
