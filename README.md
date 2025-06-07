@@ -71,11 +71,11 @@ uvicorn main:app --host 0.0.0.0 --port 8080 --reload
 ```
 ## Seed Data
 
-The fitness studio booking API comes preloaded with sample classes to help you test and explore the functionality easily. This seed data is located in the file:seed_data.py
+The fitness studio booking API comes preloaded with sample classes to help you test and explore the functionality easily. This seed data is located in the file: **seed_data.py**
 
 It includes Yoga, Zumba, and HIIT classes scheduled across multiple days with varied timings and available slots.
 
-The data is stored in a local SQLite database file named:fitness_booking.db
+The data is stored in a local SQLite database file named: **fitness_booking.db**
 
 This fitness_booking.db file is created automatically when you start the app.
 
@@ -105,6 +105,7 @@ The data is automatically seeded into the database when you start the app. To st
 
 ```bash
 uvicorn main:app --reload
+```
 
 ## Testing the API
 
