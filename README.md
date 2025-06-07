@@ -126,7 +126,7 @@ curl -X GET "http://localhost:8080/classes"
 ├── scripts/
 │   ├── api_details/               # API endpoint path definitions and configuration
 │   │   ├── api.py
-│   │   └── app_configuration.py  # Config parser for reading application.conf
+│   │   └── app_configuration.py   # Config parser for reading application.conf
 │   │
 │   ├── db/
 │   │   ├── database.py            # DB engine and session setup (SQLite)
@@ -144,6 +144,12 @@ curl -X GET "http://localhost:8080/classes"
 │   │
 │   └── service/
 │       └── booking_service.py     # Service layer with reusable DB operations and helpers
+│
+├── docs/
+│   └── test_scenarios.md          # Contains all detailed API test scenarios and expected outcomes
+│
+├── testcases/
+│   └── test_api.py                # Basic automated test cases using pytest or similar
 │
 ├── main.py                        # Application startup, DB initialization, router inclusion, seed data loading
 ├── requirements.txt               # Python dependencies required to run the project
@@ -252,3 +258,23 @@ GET /bookings?email=john@gmail.com
 - HTTP status codes: `400`, `404`, `500`
 
 ---
+
+## Test Scenarios and Test Cases
+
+### 📄 Detailed Test Scenarios
+
+All possible API test scenarios, including sample inputs and expected outputs, are documented in:
+
+- `docs/test_scenarios.md`
+
+### Automated API Tests
+
+Basic automated tests for core functionality are included in:
+
+- `testcases/test_api.py`
+
+These tests can be executed using `pytest` to ensure the API endpoints are working as expected.
+
+> Run using:
+```bash
+pytest testcases/test_api.py
