@@ -212,3 +212,7 @@ Booking issue due to: You’ve already booked a class at this time. Please choose 
 2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
 2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
 2025-06-07 12:41:03 - WARNING - bookings - [AnyIO worker thread:booking_data_service.py:book_class():44] - Booking issue due to: You’ve already booked a class at this time. Please choose a different slot/class.
+Invalid timezone 'IST' provided. Defaulting to IST.
+2025-06-07 17:46:55 - WARNING - bookings - [AnyIO worker thread:booking_data_handler.py:fetch_classes_data():30] - Invalid timezone 'IST' provided. Defaulting to IST.
+6 upcoming class(es) fetched successfully.
+2025-06-07 17:46:55 - INFO   - bookings - [AnyIO worker thread:booking_data_handler.py:fetch_classes_data():44] - 6 upcoming class(es) fetched successfully.

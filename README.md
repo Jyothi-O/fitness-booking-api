@@ -69,6 +69,43 @@ pip install "pydantic[email]"
 uvicorn main:app --host 0.0.0.0 --port 8080 --reload
 
 ```
+## Seed Data
+
+The fitness studio booking API comes preloaded with sample classes to help you test and explore the functionality easily. This seed data is located in the file:seed_data.py
+
+It includes Yoga, Zumba, and HIIT classes scheduled across multiple days with varied timings and available slots.
+
+The data is stored in a local SQLite database file named:fitness_booking.db
+
+This fitness_booking.db file is created automatically when you start the app.
+
+### Class Schedule Overview
+
+| Class Type | Date       | Time  | Available Slots | Instructor |
+|------------|------------|-------|-----------------|------------|
+| Yoga       | 2025-06-18 | 06:00 | 5               | Rita       |
+| Yoga       | 2025-06-18 | 08:00 | 4               | Rita       |
+| Yoga       | 2025-06-18 | 17:00 | 3               | Rita       |
+| Yoga       | 2025-06-19 | 07:00 | 3               | Rita       |
+| Yoga       | 2025-06-20 | 09:00 | 2               | Rita       |
+| Zumba      | 2025-06-18 | 07:00 | 4               | Sam        |
+| Zumba      | 2025-06-18 | 09:00 | 3               | Sam        |
+| Zumba      | 2025-06-18 | 19:00 | 5               | Sam        |
+| Zumba      | 2025-06-19 | 07:00 | 3               | Sam        |
+| Zumba      | 2025-06-20 | 17:00 | 6               | Sam        |
+| HIIT       | 2025-06-18 | 08:30 | 3               | Alex       |
+| HIIT       | 2025-06-18 | 09:00 | 4               | Alex       |
+| HIIT       | 2025-06-18 | 17:00 | 4               | Alex       |
+| HIIT       | 2025-06-19 | 07:00 | 3               | Alex       |
+| HIIT       | 2025-06-20 | 06:00 | 4               | Alex       |
+
+### How to load seed data
+
+The data is automatically seeded into the database when you start the app. To start the server and have this data loaded, run:
+
+```bash
+uvicorn main:app --reload
+
 ## Testing the API
 
 Once running, you can explore the API docs at `http://localhost:8080/docs` for interactive testing.
@@ -167,7 +204,7 @@ POST /book
 ```json
 {
   "data": {
-    "booking_id": 3,
+    "booking_id": 1,
     "class_id": 1,
     "client_name": "John",
     "client_email": "john@gmail.com",
@@ -194,7 +231,7 @@ GET /bookings?email=john@gmail.com
       "class_name": "Yoga",
       "slot_time": "2025-06-10 09:00",
       "client_name": "John",
-      "client_email": "john@example.com"
+      "client_email": "john@gmail.com"
     }
   ]
 }
