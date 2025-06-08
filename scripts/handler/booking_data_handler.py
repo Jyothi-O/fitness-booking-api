@@ -53,12 +53,6 @@ class BookingDataHandler:
             log.error(f"Error fetching classes: {e}")
             raise Exception("Could not retrieve class data.")
 
-    from sqlalchemy.orm import Session
-    from sqlalchemy.exc import SQLAlchemyError
-    from datetime import datetime
-    from scripts.logging.log_module import logger as log
-    from scripts.db.db_models import FitnessClass, Booking
-
     def process_booking(self, db: Session, request):
         """
         Book a class if slots are available and user has no conflicting bookings.
