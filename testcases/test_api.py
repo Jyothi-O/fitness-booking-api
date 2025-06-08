@@ -35,7 +35,7 @@ def test_book_class_duplicate():
     response = client.post("/book", json=payload)
     log.info(response.json())
     assert response.status_code == 400
-    assert "already booked" in response.json()["detail"]["error"].lower()
+    assert "already booked" in response.json()["detail"]["message"].lower()
 
 
 def test_book_class_invalid_email():
